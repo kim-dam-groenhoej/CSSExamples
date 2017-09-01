@@ -16,14 +16,30 @@
     width: 50%;
     background: #000;
     color: #fff;
-    padding: 10px 10px 10px 20px;
+    padding: 10px 0 10px 0;
     border-top-right-radius: 60px; }
-    .positions .container .header-bottom h3 {
-      padding: 0;
-      margin: 0; }
+    .positions .container .header-bottom .inner {
+      border-top: 1px dotted #fff;
+      border-bottom: 1px dotted #fff;
+      padding: 20px 0 20px 0;
+      width: 80%; }
+      .positions .container .header-bottom .inner h3 {
+        padding: 0 10px 0 10px;
+        margin: 0; }
 
 .animate .box {
   background: #000;
   width: 200px;
   height: 100px; }
+
+.flex .container {
+  display: flex;
+  width: 100%;
+  background: gray;
+  flex-direction: row;
+  flex-wrap: nowrap; }
+  .flex .container .item {
+    background: #000;
+    color: #fff;
+    width: 100px; }
 
